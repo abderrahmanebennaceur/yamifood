@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/default.css" />
+    <link rel="stylesheet" type="text/css" href="./style/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link rel="icon" href="./images/favicon.png" />
+    <title>sign up | yamifood.com</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="header-top">
+        <div class="header-social">
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-snapchat"></i></a>
+        </div>
+        <!-- ./header-social -->
+        <!-- <div class="user-panel">
+          <a class="btn" href="logout.php">logout</a>
+        </div> -->
+        <!-- ./user-panel -->
+        <div class="user-panel">
+          <a class="btn" href="signup.html">register</a>
+          <a class="btn" href="login.html">login</a>
+        </div>
+        <!-- ./user-panel -->
+      </div>
+      <!-- ./header-top -->
+      <div class="header-bottom">
+        <a href="index.php" class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <ul class="main-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="wishlist.html">wishlist</a></li>
+          <li><a href="recipes.html">Receipies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- ./header-bottom -->
+    </header>
+    <!-- Header section end -->
+    <div class="form-container">
+      <form class="signup" action="./app/signup-proc.php" method="post">
+        <div class="field">
+          <label>fullname</label>
+          <input
+            class="register-input"
+            type="text"
+            name="fullname"
+            placeholder="Fullname"
+          />
+          <p class="error-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="field">
+          <label>email</label>
+          <input
+            class="register-input"
+            type="email"
+            name="email"
+            placeholder="Email address"
+          />
+          <p class="error-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="field">
+          <label>password</label>
+          <input
+            class="register-input"
+            type="password"
+            name="password"
+            placeholder="Password"
+          />
+          <p class="error-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="field">
+          <input
+            class="register-btn"
+            type="submit"
+            name="signup"
+            value="Create Account"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

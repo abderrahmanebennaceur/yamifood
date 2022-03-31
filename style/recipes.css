@@ -1,0 +1,57 @@
+/* resiepes style */
+form.search-form {
+  padding: 50px;
+  background-color: rgba(231, 29, 53, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form.search-form select {
+  padding: 18px 18px;
+  background-color: #fdfffc;
+  flex-grow: 1;
+  margin: 5px;
+}
+form.search-form .search-input {
+  background-color: #fdfffc;
+  flex-grow: 2;
+  margin: 5px;
+  padding: 10px 14px;
+}
+.search-btn {
+  flex-grow: 1;
+  margin: 5px;
+  background-color: #fdfffc;
+  border: none;
+  transition: all 0.3s;
+}
+.search-btn:active {
+  transform: scale(0.98);
+  background-color: rgba(253, 255, 252, 0.9);
+}
+.recipies {
+  padding: 20px;
+  text-align: center;
+}
+.recipe {
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
+  width: 20%;
+  min-width: 240px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+  background-color: rgba(231, 29, 53, 0.8);
+}
+.recipe img {
+  width: 100%;
+}
+.recipe-info {
+  padding: 20px 10px;
+  text-align: center;
+}
+.recipe-info h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fdfffc;
+}
